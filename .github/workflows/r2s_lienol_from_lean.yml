@@ -59,10 +59,8 @@ jobs:
           cat ../base_rk3328.seed > configs/config_rk3328
           echo '
           CONFIG_PACKAGE_luci-app-syncdial=y
-          CONFIG_PACKAGE_luci-app-ssrserver-python=y
           CONFIG_PACKAGE_luci-app-ssr-python-pro-server=y
           CONFIG_PACKAGE_luci-app-ssr-libev-server=y
-          CONFIG_PACKAGE_shadowsocksr-libev=y
           CONFIG_PACKAGE_ipv6helper=y
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
           CONFIG_OPENSSL_ENGINE_BUILTIN=y
